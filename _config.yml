@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: fuos
+subtitle: fuos开发小笔记
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Doug
+language: en  # en | zh-CN | zh-TW
 timezone: ''
 
 # URL
@@ -43,14 +43,15 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: highlight.js
 highlight:
+  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
+  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
