@@ -35,14 +35,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-      # Check out the new branch
-      - name: checkout dist
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      # Fix timestamps
-      - name: restore timestamps
-        uses: chetan/git-restore-mtime-action@v2
+
   deploy:
     needs: build
     permissions:
