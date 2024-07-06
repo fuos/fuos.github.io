@@ -12,10 +12,10 @@ base_info:
   primary_color: "#0066cc"
 
   # Blog website title
-  title: Keep Theme
+  title: fuos开发小笔记
 
   # Blog website author name
-  author: Keep Team
+  author: fuos
 
   # Author avatar, You can use local image path or image link
   avatar: /images/avatar.svg
