@@ -1,8 +1,12 @@
 ---
 title: Welcome to use Hexo Theme Keep
+tags:
+  - Hexo
+  - Keep
+categories:
+  - Hexo
+abbrlink: 892af2b6
 date: 2022-10-25 11:40:36
-tags: [Hexo, Keep]
-categories: [Hexo]
 ---
 
 Welcome to use Hexo Theme Keep.
