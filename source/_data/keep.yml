@@ -18,13 +18,13 @@ base_info:
   author: fuos
 
   # Author avatar, You can use local image path or image link
-  avatar: /images/avatar.svg
+  avatar: /images/avatar.jpg
 
   # Website LOGO, You can use local image path or image link
-  logo: /images/logo.svg
+  logo: /images/avatar.jpg
 
   # Website favicon, You can use local image path or image link
-  favicon: /images/logo.svg
+  favicon: /images/avatar.jpg
 
 
 # ---------------------------------------------------------------------------------------
