@@ -9,7 +9,7 @@
 # ---------------------------------------------------------------------------------------
 base_info:
   # Theme primary color
-  primary_color: "#0066cc"
+  primary_color: "#e74c3c"
 
   # Blog website title
   title: fuos开发小笔记
@@ -40,8 +40,8 @@ menu:
   categories: /categories       # || fa-solid fa-layer-group
   # links: /links               # || fa-solid fa-link
   # photos: /photos             # || fa-solid fa-image
-  # tools: /tools               # || fa-solid fa-tools
-  # about: /about               # || fa-solid fa-user-graduate
+  tools: /tools                 # || fa-solid fa-tools
+  about: /about                 # || fa-solid fa-user-graduate
   # ......
 
 
@@ -280,7 +280,7 @@ comment:
 # See: https://github.com/hexojs/hexo-generator-feed
 # ---------------------------------------------------------------------------------------
 rss:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
@@ -294,7 +294,7 @@ lazyload:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/cdn.html
 # ---------------------------------------------------------------------------------------
 cdn:
-  enable: false       # Option values: true | false
+  enable: true       # Option values: true | false
   provider: cdnjs     # Option values: cdnjs | jsdelivr | unpkg
 
 
@@ -310,10 +310,10 @@ pjax:
 # ---------------------------------------------------------------------------------------
 footer:
   since: 2020           # The starting year of your website, Can be null
-  word_count: false     # Option values: true | false
+  word_count: true     # Option values: true | false
 
   site_deploy:
-    enable: false        # Option values: true | false
+    enable: true        # Option values: true | false
     provider: github     # Option values: github | vercel | netlify | cloudflare | gitee | aliyun | tencent_cloud | upyun
     url:                 # Your deployment provider url, Can be null
 
