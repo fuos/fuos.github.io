@@ -91,7 +91,7 @@ social_contact:
 # ---------------------------------------------------------------------------------------
 scroll:
   # Show progress bar in top when page scroll
-  progress_bar: true  # Option values: true | false
+  progress_bar: false  # Option values: true | false
 
   # Show percent when page scroll
   percent: true       # Option values: true | false
@@ -115,6 +115,7 @@ home:
 
   # Set the datetime type of home page post block
   post_datetime: updated    # Option values: updated | created
+  post_datetime_format: ago # Option values: ago | YYYY-MM-DD HH:mm:ss
 
 
 # ---------------------------------------------------------------------------------------
@@ -310,7 +311,7 @@ pjax:
 # ---------------------------------------------------------------------------------------
 footer:
   since: 2020           # The starting year of your website, Can be null
-  word_count: true     # Option values: true | false
+  word_count: false     # Option values: true | false
 
   site_deploy:
     enable: true        # Option values: true | false
