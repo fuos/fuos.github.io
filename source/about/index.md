@@ -1,9 +1,12 @@
 ---
 title: about
 date: 2024-07-06 12:06:47
+comment: true
 ---
 
-~~[my-blog](https://fuos.github.io/my-blog/)废弃⚠️~~  
+# About me | 关于我
+
+~~[my-blog](https://fuos.github.io/my-blog/)年久失修，已经废弃⚠️~~  
 
 之前这个github pages好久没更新了，当想更新的时候发现Travis CI要收费了，白嫖的自动化部署也就没了。于是就替换成现在这个[博客](https://fuos.github.io)，使用github actions完成自动化部署。
 
