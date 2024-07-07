@@ -49,33 +49,33 @@ menu:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/first_screen.html
 # ---------------------------------------------------------------------------------------
 first_screen:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
 
   # First screen background image in light mode, You can use local image path or image link
-  background_img: /images/bg.svg
+  background_img: /images/bg2.svg
 
   # First screen background image in dark mode, You can use local image path or image link
-  background_img_dark: /images/bg.svg
+  background_img_dark: /images/bg2.svg
 
   # First screen description
   # You can use the "||" to begin a newline, maximum is two lines.
   description: Keep writing and Keep loving.
 
   # If enable hitokoto, first screen description is different every time when you enter the website
-  hitokoto: false      # Option values: true | false
+  hitokoto: true      # Option values: true | false
 
 
 # ---------------------------------------------------------------------------------------
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/social_contact.html
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false      # Option values: true | false
+  enable: true      # Option values: true | false
   links:
     # Fill in your social platform links here, e.g. `github: https://github.com/XPoet`
     # If you want to click open the picture, you need to add a prefix `img | `,
     # at the same time change your link to the image link.
     # e.g. `weixin: img | ./images/qrcode.png`
-    github:          # GitHub
+    github: https://github.com/fuos          # GitHub
     weixin:          # WeChat
     qq:              # QQ
     weibo:           # WeiBo
@@ -91,7 +91,7 @@ social_contact:
 # ---------------------------------------------------------------------------------------
 scroll:
   # Show progress bar in top when page scroll
-  progress_bar: false  # Option values: true | false
+  progress_bar: true  # Option values: true | false
 
   # Show percent when page scroll
   percent: true       # Option values: true | false
@@ -127,10 +127,10 @@ post:
 
     # If true, show Lv1, Lv2, Lv3 ...
     # If false, show custom badge
-    level_badge: true    # Option values: true | false
+    level_badge: false    # Option values: true | false
 
     # Custom badge array, You can be fill one or more item
-    custom_badge: ["One", "Two", "Three"]
+    custom_badge: ["凡人", "地仙", "天师", "上仙", "真君", "仙王", "天尊"]
 
   # Post word count
   # Depend on Hexo Plugin: hexo-wordcount (`npm install hexo-wordcount`)
