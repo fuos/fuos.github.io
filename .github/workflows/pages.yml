@@ -14,8 +14,11 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
+          # git-restore-mtime-bare uses the ref log to find the correct timestamp
+          # for each file. This requires a full git history. The default value (1)
+          # creates a shallow checkout.
           fetch-depth: 0
-            # Fix timestamps
+        # Fix timestamps
       - name: restore timestamps
         uses: chetan/git-restore-mtime-action@v2
       - name: Use Node.js 20
