@@ -9,7 +9,7 @@
 # ---------------------------------------------------------------------------------------
 base_info:
   # Theme primary color
-  primary_color: "#eb3b5a"
+  primary_color: "#EA4335"
 
   # Blog website title
   title: fuos开发小笔记
