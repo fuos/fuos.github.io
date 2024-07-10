@@ -9,7 +9,7 @@
 # ---------------------------------------------------------------------------------------
 base_info:
   # Theme primary color
-  primary_color: "#e74c3c"
+  primary_color: "#eb3b5a"
 
   # Blog website title
   title: fuos开发小笔记
@@ -52,10 +52,10 @@ first_screen:
   enable: true  # Option values: true | false
 
   # First screen background image in light mode, You can use local image path or image link
-  background_img: /images/bg2.svg
+  background_img: /images/bg.svg
 
   # First screen background image in dark mode, You can use local image path or image link
-  background_img_dark: /images/bg2.svg
+  background_img_dark: /images/bg.svg
 
   # First screen description
   # You can use the "||" to begin a newline, maximum is two lines.
@@ -296,7 +296,7 @@ lazyload:
 # ---------------------------------------------------------------------------------------
 cdn:
   enable: true       # Option values: true | false
-  provider: cdnjs     # Option values: cdnjs | jsdelivr | unpkg
+  provider: jsdelivr     # Option values: cdnjs | jsdelivr | unpkg
 
 
 # ---------------------------------------------------------------------------------------
