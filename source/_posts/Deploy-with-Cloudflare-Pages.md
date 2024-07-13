@@ -15,4 +15,4 @@ cf pages也支持托管hexo！！！
 ### 2.设置环境变量
 ![image](https://fuos.github.io/picx-images-hosting/20240712/image.2yy8m13cfy.webp)
 ### 3.保存并部署
-然后等一等，刷新页面就能看到部署成功了。还可以绑定域名，之后可以通过新的地址访问：[cf-pages测试地址](https://blog.vp-cf.dynv6.net/)
+然后等一等，刷新页面就能看到部署成功了。还可以绑定域名，之后可以通过新的地址访问：[cf-pages测试地址](https://blog.bytex.dynv6.net/)
