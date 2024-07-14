@@ -6,8 +6,6 @@ tags:
 categories:
   - spring
 date: 2024-07-08 14:22:56
-home_cover: https://fuos.github.io/picx-images-hosting/20240708/hdck.6wqlwrws37.webp
-home_cover_height: 120
 ---
 
 滑动窗口限流和固定窗口限流都是常见的限流策略，它们各有特点和适用场景。下面是两者的主要区别：  
@@ -52,7 +50,6 @@ home_cover_height: 120
     }
 
 ```
-
 springboot+redis实现滑动窗口限流完整代码：[ratelimit-demo](https://github.com/fuos/springboot3.x-demo/tree/master/ratelimit-demo)  
 
 > 测试下图床，文章内容和代码由GPT生成🚀。
