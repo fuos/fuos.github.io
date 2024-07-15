@@ -1,11 +1,12 @@
 ---
 title: Deploy with Cloudflare Pages
-date: 2024-07-12 17:45:00
 tags:
   - Hexo
   - cf
 categories:
   - cf
+abbrlink: 49749a97
+date: 2024-07-12 17:45:00
 ---
 cf pages也支持托管hexo！！！
 一键部署github pages到cf：[参考链接](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hexo-site/)  ，跟着文档选择你已经部署好的代码，然后：

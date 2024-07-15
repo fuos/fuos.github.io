@@ -15,16 +15,16 @@ base_info:
   title: byteX开发小笔记
 
   # Blog website author name
-  author: fuos
+  author: knife
 
   # Author avatar, You can use local image path or image link
   avatar: /images/avatar.png
 
   # Website LOGO, You can use local image path or image link
-  logo: /images/avatar.png
+  logo: /images/favicon.svg
 
   # Website favicon, You can use local image path or image link
-  favicon: /images/favicon.ico
+  favicon: /images/favicon.svg
 
 
 # ---------------------------------------------------------------------------------------
