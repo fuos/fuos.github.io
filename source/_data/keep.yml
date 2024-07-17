@@ -151,8 +151,8 @@ post:
 
   # Reward author
   reward:
-    enable: false        # Option values: true | false
-    img_link:            # Image link for the payment QR code
+    enable: true        # Option values: true | false
+    img_link: /images/reward.webp # Image link for the payment QR code
     text:                # Custom reward text, Can be null
 
 
@@ -316,7 +316,7 @@ footer:
   site_deploy:
     enable: true        # Option values: true | false
     provider: github     # Option values: github | vercel | netlify | cloudflare | gitee | aliyun | tencent_cloud | upyun
-    url:                 # Your deployment provider url, Can be null
+    url: https://github.com/fuos/fuos.github.io # Your deployment provider url, Can be null
 
   record:
     enable: false        # Option values: true | false
@@ -332,16 +332,16 @@ footer:
 # Docs: https://keep-docs.xpoet.cn/basis/configuration-guide/inject.html
 # ---------------------------------------------------------------------------------------
 inject:
-  enable: false  # Option values: true | false
+  enable: true  # Option values: true | false
   css:
     -
       # e.g.
-      # - /css/custom-1.css
+      - /css/custom.css
       # - /css/custom-2.css
     # - ...
   js:
     -
       # e.g.
-      # - /js/custom-1.js
+      # - /js/custom.js
       # - /js/custom-2.js
     # - ...
