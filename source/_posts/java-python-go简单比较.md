@@ -2,6 +2,10 @@
 title: java/python/go简单比较
 date: 2024-07-18 08:55:33
 tags:
+  - dev
+  - language
+categories:
+  - 学习
 ---
 ### Java
 
