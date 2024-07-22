@@ -152,7 +152,7 @@ post:
   # Reward author
   reward:
     enable: true        # Option values: true | false
-    img_link: /images/reward.webp # Image link for the payment QR code
+    img_link: /images/wechat.webp # Image link for the payment QR code
     text:                # Custom reward text, Can be null
 
 

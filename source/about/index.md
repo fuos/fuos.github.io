@@ -1,5 +1,5 @@
 ---
-title: about
+title: 关于
 date: 2024-07-06 12:06:47
 comment: true
 ---

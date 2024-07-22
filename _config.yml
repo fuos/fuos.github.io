@@ -5,8 +5,8 @@
 # Site
 title: byteX开发小笔记
 subtitle: byteX开发小笔记
-description: 'byteX开发小笔记'
-keywords:
+description: byteX开发小笔记
+keywords: byteX,knife,fuos,hexo-blog
 author: knife
 language: zh-CN
 timezone: Asia/Shanghai
@@ -102,7 +102,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: keep
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -117,3 +117,17 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+
+
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    # - 'exclude1.com'
+    # - 'exclude2.com'
+
+# Math
+markdown:
+    plugins:
+      - '@renbaoshuo/markdown-it-katex'
+      - markdown-it-task-lists

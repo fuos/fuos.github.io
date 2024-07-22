@@ -4,7 +4,7 @@ tags:
   - Hexo
   - cf
 categories:
-  - cf
+  - 建站
 abbrlink: 49749a97
 date: 2024-07-12 17:45:00
 ---

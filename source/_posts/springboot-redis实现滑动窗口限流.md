@@ -4,7 +4,7 @@ tags:
   - redis
   - springboot
 categories:
-  - spring
+  - 学习
 abbrlink: '268e55'
 date: 2024-07-08 14:22:56
 ---
