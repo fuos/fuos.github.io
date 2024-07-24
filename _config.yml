@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: byteX开发小笔记
-subtitle: byteX开发小笔记
-description: byteX开发小笔记
-keywords: byteX,knife,fuos,hexo-blog
+title: bitmap开发小笔记
+subtitle: bitmap开发小笔记
+description: bitmap开发小笔记
+keywords: bitmap,knife,fuos,hexo,blog
 author: knife
 language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://fuos.github.io
+url: https://blog.bitmap.us.kg/
 # permalink: :year/:month/:day/:title/
 # permalink_defaults:
 permalink: posts/:abbrlink.html
