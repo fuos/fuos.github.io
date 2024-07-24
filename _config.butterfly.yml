@@ -232,7 +232,7 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: Follow Me
+      text: 帮点个小星星🌟
       link: https://github.com/fuos
   card_announcement:
     enable: true
