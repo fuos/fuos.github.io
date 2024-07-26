@@ -22,7 +22,7 @@ menu:
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -232,11 +232,11 @@ aside:
     button:
       enable: true
       icon: fab fa-github
-      text: 帮点个小星星🌟
+      text: Like Stars 🌟🌟
       link: https://github.com/fuos
   card_announcement:
     enable: true
-    content: this is my blog
+    content: this is my blog , i write about shit.
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -734,14 +734,14 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
-  code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  font-family:
+  code-font-family:
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
   font_link:
-  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+  font-family:
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
@@ -931,7 +931,7 @@ CDN:
   # The CDN provider of third party scripts (第三方 js 的 cdn 配置)
   # option: local/jsdelivr/unpkg/cdnjs/custom
   # when set it to local, you need to install hexo-butterfly-extjs
-  third_party_provider: jsdelivr
+  third_party_provider: unpkg
 
   # Add version number to url, true or false
   version: true
