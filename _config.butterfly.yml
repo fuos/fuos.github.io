@@ -182,10 +182,10 @@ reward:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
-  enable: false
+  enable: true
   # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  url:
+  url: https://github.com/fuos/fuos.github.io/edit/main/source/
 
 # Related Articles
 related_post:
@@ -204,10 +204,10 @@ post_pagination: 1
 noticeOutdate:
   enable: true
   style: flat # style: simple/flat
-  limit_day: 365 # When will it be shown
+  limit_day: 90 # When will it be shown
   position: top # position: top/bottom
-  message_prev: It has been
-  message_next: days since the last update, the content of the article may be outdated.
+  message_prev: 瞬息万变，本文最后更新于
+  message_next: 天前，可能已失时效性，请自行判断。
 
 # Footer Settings
 # --------------------------------------
@@ -367,13 +367,13 @@ katex:
 
 # Algolia search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 6
 
 # Local search
 local_search:
-  enable: true
+  enable: false
   # Preload the search data when the page loads.
   preload: false
   # Show top n results per article, show all results by setting to -1
