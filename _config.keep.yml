@@ -296,7 +296,7 @@ lazyload:
 # ---------------------------------------------------------------------------------------
 cdn:
   enable: true       # Option values: true | false
-  provider: jsdelivr     # Option values: cdnjs | jsdelivr | unpkg
+  provider: unpkg     # Option values: cdnjs | jsdelivr | unpkg
 
 
 # ---------------------------------------------------------------------------------------
@@ -336,7 +336,7 @@ inject:
   css:
     -
       # e.g.
-      - /css/custom.css
+      - /css/keep/custom.css
       # - /css/custom-2.css
     # - ...
   js:
