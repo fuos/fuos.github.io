@@ -737,10 +737,10 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size:
-  code-font-size:
-  font-family:
-  code-font-family:
+  global-font-size: 16px
+  code-font-size: 14px
+  font-family: LXGW WenKai Screen, sans-serif;
+  code-font-family: Fira Code, monospace !important;
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
@@ -886,7 +886,7 @@ lazyload:
   enable: true
   field: site # site/post
   placeholder: /images/loading.svg
-  blur: false
+  blur: true
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -920,8 +920,11 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    # 自定义样式
     - <link rel="stylesheet" href="/css/butterfly/custom.css">
-    - <link rel="stylesheet" href="https://cdnjs.sgcd.net/lxgw-wenkai-screen-webfont/lxgwwenkaigbscreen.css" />
+    # 自定义字体
+    - <link rel="stylesheet" href="https://cdn.staticfile.net/lxgw-wenkai-screen-webfont/1.7.0/style.css">
+    - <link rel="stylesheet" href="https://cdn.staticfile.net/firacode/6.2.0/fira_code.css">
   bottom:
     # - <script src="xxxx"></script>
 

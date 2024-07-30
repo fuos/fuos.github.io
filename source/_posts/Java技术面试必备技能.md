@@ -9,6 +9,29 @@ abbrlink: 5f972bb0
 date: 2024-07-18 11:32:31
 cover: https://fuos.github.io/picx-images-hosting/20240722/cover.3nrikfh2za.webp
 ---
+
+{% note green 'fas fa-rocket' %}
+
+ 📚  文章目录
+
+{% post_link Java技术面试必备技能 ' 🚀 Java后端面试必备技能列表' %}
+
+{% post_link Java后端必备之-一-JVM ' 🚀 Java后端必备技能(一)：JVM原理' %}
+
+{% post_link Java后端必备技能-二-Java原理 ' 🚀 Java后端必备技能(二)：Java原理' %}
+
+{% endnote %}
+
+{% note orange 'fas fa-magic' %}
+
+TODO说明：这是一个系列文章，目前还没有全部完成。
+
+Java Version：如果没有特别说明，那么默认Java8，hotspot虚拟机。
+
+{% endnote %}
+
+***
+
 接下来的一段时间，我将对我之前工作中用到的知识和技能做一个整理，从一个Java后端开发人员的角度整理一份《Java后端面试必备技能》。
 ### 我的计划🐔
 *Q：我想让这份文档是怎样的，应该具备什么样的特点？*
