@@ -953,13 +953,13 @@ CDN:
     # abcjs_basic_js:
     # activate_power_mode:
     # algolia_js:
-    # algolia_search:
+    algolia_search: https://cdn.staticfile.net/algoliasearch/4.22.1/algoliasearch-lite.umd.js # 低版本
     # aplayer_css:
     # aplayer_js:
     # artalk_css:
     # artalk_js:
     # blueimp_md5:
-    # busuanzi:
+    busuanzi: https://cdn.staticfile.net/busuanzi/2.3.0/bsz.pure.mini.js
     # canvas_fluttering_ribbon:
     # canvas_nest:
     # canvas_ribbon:
@@ -970,8 +970,8 @@ CDN:
     # docsearch_css:
     # docsearch_js:
     # egjs_infinitegrid:
-    # fancybox:
-    # fancybox_css:
+    fancybox: https://cdn.staticfile.net/fancyapps-ui/5.0.33/fancybox/fancybox.umd.js # 低版本
+    fancybox_css: https://cdn.staticfile.net/fancyapps-ui/5.0.33/fancybox/fancybox.css # 低版本
     # fireworks:
     # fontawesome:
     # gitalk:
@@ -981,7 +981,7 @@ CDN:
     # instantsearch:
     # katex:
     # katex_copytex:
-    lazyload: https://unpkg.com/vanilla-lazyload@19.0.5/dist/lazyload.iife.min.js
+    lazyload: https://cdn.staticfile.net/vanilla-lazyload/17.8.5/lazyload.iife.min.js # 低版本
     # local_search:
     # main:
     # main_css:
@@ -993,11 +993,11 @@ CDN:
     # prismjs_autoloader:
     # prismjs_js:
     # prismjs_lineNumber_js:
-    # pjax:
+    pjax: https://cdn.staticfile.net/pjax/0.2.8/pjax.min.js
     # sharejs:
     # sharejs_css:
-    # snackbar:
-    # snackbar_css:
+    snackbar: https://cdn.staticfile.net/node-snackbar/0.1.16/snackbar.min.js
+    snackbar_css: https://cdn.staticfile.net/node-snackbar/0.1.16/snackbar.min.css
     # translate:
     # twikoo:
     # typed:
