@@ -20,6 +20,8 @@ cover: https://fuos.github.io/picx-images-hosting/20240722/cover.3nrikfh2za.webp
 
 {% post_link Java后端必备技能-二-Java原理 ' 🚀 Java后端必备技能(二)：Java原理' %}
 
+{% post_link Java后端必备技能-三-MySQL ' 🚀 Java后端必备技能(三)：MySQL' %}
+
 {% endnote %}
 
 {% note orange 'fas fa-magic' %}

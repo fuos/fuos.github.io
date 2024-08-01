@@ -40,10 +40,10 @@ hexo-theme-indigo : https://github.com/yscoder/hexo-theme-indigo
 ## 字体
 
 ```yml
-	# 文章字体：霞鹜文楷
-    - <link rel="stylesheet" href="https://cdn.staticfile.net/lxgw-wenkai-screen-webfont/1.7.0/style.css">
-    # 代码字体：FiraCode
-    - <link rel="stylesheet" href="https://cdn.staticfile.net/firacode/6.2.0/fira_code.css">
+# 文章字体：霞鹜文楷
+- <link rel="stylesheet" href="https://cdn.staticfile.net/lxgw-wenkai-screen-webfont/1.7.0/style.css">
+# 代码字体：FiraCode
+- <link rel="stylesheet" href="https://cdn.staticfile.net/firacode/6.2.0/fira_code.css">
 ```
 
 ## 评论
@@ -106,5 +106,8 @@ hexo cl && hexo g && hexo algoli && hexo s --open
 
 ### 图片压缩
 推荐[tinypng](https://tinypng.com/)，[caesium](https://caesium.app/)，这俩基本就够用了，第二个还有app可以下载。
+
+### 网站配色
+推荐一个在线网站[gradients.app](https://gradients.app/zh/mesh)，可以选取自己喜欢的颜色，然后自定义注入样式。
 
 完整配置见[这里](https://github.com/fuos/fuos.github.io)，博客开源，代码和配置都开源，有些配置搞不明白也可以去看看，欢迎来噶🔪。
