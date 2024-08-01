@@ -29,16 +29,16 @@
 /*
 文章列表封面高度
 */
-#recent-posts>.recent-post-item {
+/* #recent-posts>.recent-post-item {
 	height: 14em;
-}
+} */
 
 /*
 文章列表封面宽度
 */
-#recent-posts>.recent-post-item .post_cover {
+/* #recent-posts>.recent-post-item .post_cover {
 	width: 36%;
-}
+} */
 
 /*
 top图大小
