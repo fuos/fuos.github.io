@@ -134,9 +134,9 @@ markdown:
 
 # search
 algolia:
-  appId: "J1V57O494N"
-  apiKey: "bd21d5fd95feec9d840731b17fc7962d"
-  adminApiKey: "06da748cdaec65717e48fa6061e11d5a"
+  appId: "FVIZJ7YP5J"
+  apiKey: "ba1d0d348343249abfc39fb81845b772"
+  adminApiKey: "e9790368ffec5fc0749971e94c14dde5"
   chunkSize: 5000
   indexName: "bitmap-db"
   fields:

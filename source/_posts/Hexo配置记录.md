@@ -82,7 +82,7 @@ vercel针对中国大陆用户的cname：`cname-china.vercel-dns.com`。
 
 因为配置了algolia，所以每次发布文章都要建立索引，本地启动测试三连变四连：
 ```bash
-hexo cl && hexo g && hexo algoli && hexo s --open
+hexo cl && hexo g && hexo algolia && hexo s --open
 ```
 
 ## 工具
