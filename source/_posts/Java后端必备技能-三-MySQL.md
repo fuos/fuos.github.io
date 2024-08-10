@@ -23,9 +23,9 @@ Java Version：如果没有特别说明，那么默认Java8，hotspot虚拟机�
 
 ***
 
-# 关系型数据库
+# 关系型数据库特点
 
-mysql就是典型的关系型数据库（Relational Database, RDBMS），它由多张SQL表组成。对于关系型数据库，主要有以下几个特点：
+MySQL是典型的关系型数据库（Relational Database, RDBMS），它由多张SQL表组成。对于关系型数据库，主要有以下几个特点：
 
 ## 二维表结构
 
@@ -75,9 +75,9 @@ mysql就是典型的关系型数据库（Relational Database, RDBMS），它由�
 
 ## 反范式
 反范式是一种很烂的设计，虽然可以短期的获取一些便利，比如通过增加冗余表等方式降低join开销，减少IO，但是长久以往会使数据库的结构越发混乱，并不建议做过多反范式。
-# mysql存储引擎
+# MySQL存储引擎
 
-以我现在使用的V5.7.22版本为例，通过命令查看MySQL数据库支持的执行引擎如下，可以看到默认的执行引擎是InnoDB：
+存储引擎是表的属性。以我现在使用的V5.7.22版本为例，通过命令查看MySQL数据库支持的执行引擎如下，可以看到默认的执行引擎是InnoDB：
 ![mysql_engines](https://fuos.github.io/picx-images-hosting/20240809/mysql_engines.8hge6d7zu0.webp)
 MySQL在之前的版本也使用过MYISAM作为默认存储引擎，后来就将执行引擎换成了INNODB。我认为这种替换，肯定是因为INNODB更加适合现代数据库需求，所以非必要请别使用MYISAM。
 ## MYISAM和INNODB多维度比较
@@ -98,7 +98,7 @@ MySQL在之前的版本也使用过MYISAM作为默认存储引擎，后来就将
 **MyISAM**适用于读操作密集、需要全文检索、不需要事务支持的应用。
 **InnoDB**更适合高并发、需要事务支持和数据完整性的应用。
 ## MYISAM和INNODB索引比较
-对于这两个执行引擎索引的比较，主要从以下两个方面比较：
+对于这两个存储引擎的比较，主要从以下两个方面比较：
 ### 聚簇索引 & 非聚簇索引
 下面是聚簇索引和非聚簇索引的结构图：在聚簇索引中，红色的数字就是主键🆔，叶子节点上的data就是记录，data中有name，age，gender等字段。在非聚簇索引中，蓝色的数字是使用age字段构建的索引，在叶子节点上红色的数字是主键🆔。也就是说，非聚簇索引最终还是查询的主键索引。
 ![index](https://fuos.github.io/picx-images-hosting/20240810/index.41xz294uxn.svg)
@@ -120,6 +120,15 @@ MYISAM默认使用B-tree存储索引，INNODB默认使用B+tree存储索引。
 **B+Tree** 
 他的结构是：非叶子节点只存储索引，叶子节点存储数据和索引，叶子节点之间有双向指针形成链表。
 他是更常用的索引结构，特别是在数据库系统中。它在范围查询、有序访问、磁盘I/O优化方面有显著优势，适合于大规模数据集和需要稳定查询性能的场景。
+
 # 一条SQL的执行过程
 
 # MySQL主从复制流程
+
+# MySQL事务隔离级别
+
+# MySQL并发解决方案
+
+# MySQL中xxxlog比较
+
+# MySQL典型优化场景
