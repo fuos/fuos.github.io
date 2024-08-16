@@ -67,7 +67,7 @@ https://blog.bitmap.us.kg/	（fast）
 https://cf.bitmap.us.kg/	（stable）
 
 ### github pages
-https://gh.bitmap.us.kg/	（stable）
+https://gh.bitmap.us.kg/	（backup）
 
 ## 优化
 
