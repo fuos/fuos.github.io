@@ -16,8 +16,8 @@ menu:
     分类: /categories/ || fas fa-folder-open
   Hub||fas fa-network-wired:
     Node1: https://blog.redo.dpdns.org/ || fas fa-server
-    Node2: https://cf.bitmap.us.kg || fab fa-cloudflare
-    Node3: https://gh.bitmap.us.kg || fab fa-github-alt
+    Node2: https://cf.redo.dpdns.org/ || fab fa-cloudflare
+    Node3: https://gh.redo.dpdns.org/ || fab fa-github-alt
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
