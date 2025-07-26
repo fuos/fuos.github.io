@@ -15,7 +15,7 @@ menu:
     归档: /archives/ || fas fa-archive
     分类: /categories/ || fas fa-folder-open
   Hub||fas fa-network-wired:
-    Node1: https://blog.bitmap.us.kg || fas fa-server
+    Node1: https://blog.redo.dpdns.org/ || fas fa-server
     Node2: https://cf.bitmap.us.kg || fab fa-cloudflare
     Node3: https://gh.bitmap.us.kg || fab fa-github-alt
   # List||fas fa-list:
