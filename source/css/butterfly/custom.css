@@ -26,6 +26,10 @@
 /*
 top图大小
 */
+#page-header.full_page {
+	height: 80vh;
+}
+
 #page-header.post-bg {
 	height: 300px;
 }
