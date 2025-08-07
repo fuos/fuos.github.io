@@ -485,8 +485,8 @@ math:
 search:
   # Choose: algolia_search / local_search / docsearch
   # leave it empty if you don't need search
-  use:
-  placeholder:
+  use: local_search
+  placeholder: 搜索...
 
   # Algolia Search
   algolia_search:
@@ -825,8 +825,8 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work
 font:
-  global-font-size: 16px
-  code-font-size: 14px
+  global_font_size:
+  code_font_size:
   font_family:
   code_font_family:
 

@@ -1,47 +1,31 @@
-[data-theme='light'] {
-
-	/*	
-背景颜色
-*/
-	#recent-posts>.recent-post-item {
-		background: #ffffffb3;
-	}
-
-	/*
-侧边栏背景
-*/
-	#aside-content .card-widget {
-		background: #ffffffb3;
-	}
-
-
-	/*
-背景渐变
-*/
-	#web_bg {
-		background: radial-gradient(at 26.132516836382504% 86.99190910836059%, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 0) 100%), radial-gradient(at 57.738295994743126% 37.38034498579115%, hsla(226.22950819672133, 54.46428571428572%, 43.92156862745098%, 1) 0%, hsla(226.22950819672133, 54.46428571428572%, 43.92156862745098%, 0) 100%), radial-gradient(at 61.76127394286329% 0.2615760044830773%, hsla(72.98245614035088, 96.61016949152543%, 65.29411764705883%, 1) 0%, hsla(72.98245614035088, 96.61016949152543%, 65.29411764705883%, 0) 100%), radial-gradient(at 34.692174846954195% 51.74700152962741%, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 0) 100%), radial-gradient(at 11.158524154518135% 29.676311922552035%, hsla(226.22950819672133, 54.46428571428572%, 43.92156862745098%, 1) 0%, hsla(226.22950819672133, 54.46428571428572%, 43.92156862745098%, 0) 100%), radial-gradient(at 55.05598829218813% 19.87923178035561%, hsla(72.98245614035088, 96.61016949152543%, 65.29411764705883%, 1) 0%, hsla(72.98245614035088, 96.61016949152543%, 65.29411764705883%, 0) 100%), radial-gradient(at 12.07442067104183% 56.77885915723855%, hsla(0, 0%, 100%, 1) 0%, hsla(0, 0%, 100%, 0) 100%), radial-gradient(at 37.25134657586153% 97.51373978060788%, hsla(226.22950819672133, 54.46428571428572%, 43.92156862745098%, 1) 0%, hsla(226.22950819672133, 54.46428571428572%, 43.92156862745098%, 0) 100%);
-	}
+/* 自定义header图片高度为一半屏幕 */
+#page-header {
+  height: 50vh !important;
+  min-height: 50vh !important;
 }
 
-/*
-top图大小
-*/
-#page-header.full_page {
-	height: 80vh;
+/* 确保header内容垂直居中 */
+#page-header #site-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
 }
 
-#page-header.post-bg {
-	height: 300px;
+/* 调整导航栏位置 */
+#page-header #nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
-#page-header.not-home-page {
-	height: 300px;
-}
-
-/*
-侧边按钮
-*/
-#rightside>div>button,
-#rightside>div>a {
-	border-radius: 50%;
+/* 调整滚动下拉按钮位置 */
+#page-header #scroll-down {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
